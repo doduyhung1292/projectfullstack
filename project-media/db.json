@@ -1,0 +1,20 @@
+{
+  "status": [
+    {
+      "statusID": 1,
+      "userID": 19382,
+      "content": "Hello you, this is the first status here.",
+      "image": 
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,6 +1,6 @@
-React router
+## Client: React router, Reacttrap
 
-
+## Server: Nodejs, Expressjs
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

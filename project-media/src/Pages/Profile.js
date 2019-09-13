@@ -6,6 +6,9 @@ class Profile extends Component {
 	return(
      <div>
       <TopMenu />
+      <React.Fragment>
+        hihi
+      </React.Fragment>
      </div>
 	)
  }
