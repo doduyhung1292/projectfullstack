@@ -12,14 +12,46 @@ import { ListGroup,
     Form, FormGroup, Label, Input } from 'reactstrap';
 
 class Index extends Component {
+  constructor(){
+	super();
+	this.state={
+		Useronline: [
+        {name:"Nguyễn Văn Toàn"},
+        {name:"Nguyễn Văn Toàn"},
+        {name:"Nguyễn Văn Toàn"},
+        {name:"Nguyễn Văn Toàn"},
+        {name:"Nguyễn Văn Toàn"},
+        {name:"Nguyễn Văn Toàn"}
+		],
+		Control: [
+         {function: "Event"},
+         {function: "Saved"},
+         {function: "Gaming"},
+         {function: "Memories"},
+         {function: "Help & Support"},
+         {function: "See more"}
+		]
+
+	}
+
+}
   render() {
+  	const descriptionStyle = {
+      display: 'inline-flex'
+      };
+  	const {Useronline, Control}= this.state;
 	return(
 	<div>
      <TopMenu />
      <Row>
       <Col sm="3">
-         <ListGroup>
-        <ListGroupItem>K63 - Trường Đại học Bách khoa Hà Nội (HUST)</ListGroupItem>
+         <React.Fragment style={descriptionStyle}>
+           <h4>Home</h4>
+           <a href="#">Create</a>
+          </React.Fragment>
+         <ListGroup >
+          
+          <ListGroupItem>{Control.function}</ListGroupItem>
         </ListGroup>
      </Col>
      <Col sm="6">
@@ -42,9 +74,12 @@ class Index extends Component {
       </Card>
      </Col>
      <Col sm="3">
-       <ListGroup>
-        <ListGroupItem>Cras justo odio</ListGroupItem>
-        </ListGroup>
+       <React.Fragment className="online-bar">
+            <h5>Suggest</h5>
+            <img src="#"/>
+            <h5>Contacts</h5>
+            <h6>{Useronline.name}</h6>
+          </React.Fragment >
      </Col>
      </Row>
 	</div>
