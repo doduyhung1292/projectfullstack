@@ -30,8 +30,10 @@ button {
 	height: 2rem;
 	background-color: white;
 	border-radius: 0.2rem;
-	border-width: 0.2px;   
+	border-width: 0.2px; 
+	margin-left: 1rem;  
 }
+
 .setting {
 	margin-left: 17rem;
 }

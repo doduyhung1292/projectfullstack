@@ -24,17 +24,20 @@ const items = [
   {
     id: 1,
     altText: 'Slide 1',
-    caption: 'Slide 1'
+    caption: 'Slide 1',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgV99hmlyVw-aETqgUGPrCTuimYCaRj1tWpYAibDCPGFdY4eoz'
   },
   {
     id: 2,
     altText: 'Slide 2',
-    caption: 'Slide 2'
+    caption: 'Slide 2',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6GLnMXQl1Z9oT67T7lIn9zKOwpTIo8muZDZRHmKH3mOGiayb7'
   },
   {
     id: 3,
     altText: 'Slide 3',
-    caption: 'Slide 3'
+    caption: 'Slide 3',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9wRBvBPg1ZPpiqr7up0-_EBNN4WTESD6_wUcj-bCJx1LGrcNP'
   }
 ];
 

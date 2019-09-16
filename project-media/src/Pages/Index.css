@@ -5,18 +5,23 @@
 	
 }
 .BarLeft > h6 {
-	padding-top: 1.2rem;
+	padding-top: 1rem;
 	padding-left: 2.5rem; 
 }
 .BarLeft > h4{
 	padding-left: 7rem; 
 
 }
+.BarLeft > h5 {
+	margin-left: 3.2rem
+}
 .BarLeft > p {
 	padding-top: 1.2rem;
 	padding-left: 2.5rem; 
 }
-
+.BarLeft > h6 > i {
+	padding-top: .5rem;
+}
 
 
 
@@ -27,8 +32,15 @@
 .OnlineBar > h6 {
 	padding-top: 1rem;
 }
-.Content > CardTitle {
+.Title {
    font-size: 1rem;
+   margin-left: .55rem;
+   margin-top: .55rem;
+}
+.Title > h5 {
+    display: inline-block;
+    margin-left: 1rem;
+	
 }
 
 .CardBody > Button {
@@ -37,4 +49,9 @@
 }
 .CardBody > Button:active {
    background-color: #6c757d;
+}
+.Avata {
+	height: 3rem;
+	width: 3rem;
+	border-radius: 2rem;
 }
