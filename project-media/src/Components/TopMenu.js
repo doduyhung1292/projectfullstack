@@ -21,7 +21,7 @@ class TopMenu extends Component {
             <button><MaterialIcon icon="people_outline" size='35' /></button>
           </React.Fragment>
           <React.Fragment>
-             <button className="setting"><MaterialIcon icon="brightness_5" size='35' /></button>
+             <button className="setting" href="./Login"><MaterialIcon icon="brightness_5" size='35' /></button>
           </React.Fragment >
       </div>
     )
