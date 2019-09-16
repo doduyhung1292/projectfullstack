@@ -1,43 +1,14 @@
 .Content {
 	background-color: #aaaaaa1f;
 }
-.BarLeft {
-	
-}
-.BarLeft > h6 {
-	padding-top: 1rem;
-	padding-left: 2.5rem; 
-}
-.BarLeft > h4{
-	padding-left: 7rem; 
-
-}
-.BarLeft > h5 {
-	margin-left: 3.2rem
-}
-.BarLeft > p {
-	padding-top: 1.2rem;
-	padding-left: 2.5rem; 
-}
-.BarLeft > h6 > i {
-	padding-top: .5rem;
-}
 
 
-
-
-.OnlineBar {
-
-}
-.OnlineBar > h6 {
-	padding-top: 1rem;
-}
 .Title {
    font-size: 1rem;
    margin-left: .55rem;
    margin-top: .55rem;
 }
-.Title > h5 {
+.Title > a > h5 {
     display: inline-block;
     margin-left: 1rem;
 	
