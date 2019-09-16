@@ -1,0 +1,40 @@
+.Content {
+	background-color: #aaaaaa1f;
+}
+.BarLeft {
+	
+}
+.BarLeft > h6 {
+	padding-top: 1.2rem;
+	padding-left: 2.5rem; 
+}
+.BarLeft > h4{
+	padding-left: 7rem; 
+
+}
+.BarLeft > p {
+	padding-top: 1.2rem;
+	padding-left: 2.5rem; 
+}
+
+
+
+
+
+.OnlineBar {
+
+}
+.OnlineBar > h6 {
+	padding-top: 1rem;
+}
+.Content > CardTitle {
+   font-size: 1rem;
+}
+
+.CardBody > Button {
+   width: 12rem;
+   height: 2.4rem;
+}
+.CardBody > Button:active {
+   background-color: #6c757d;
+}
